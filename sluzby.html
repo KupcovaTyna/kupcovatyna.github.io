@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/765px.css">
+    <link rel="stylesheet" href="./css/1024.css">
+    <meta name = "theme-color" content = "#251605ef">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <title>Služby | JS Vydlákov</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav nav">
+            <div class="nav__bar">
+
+                <a class="button_hamburger" href="javascript:void(0);" onclick="myFunction()"></a>
+            </div>
+            <menu id="myLinks" class="menu hidden">
+                <li class="menu__item"><a class="button menu__button" href="index.html#uvod">Úvod</a></li>
+                <li class="menu__item"><a class="button menu__button" href="sluzby.html#sluzby">Služby</a></li>
+                <li class="menu__item"><a class="button menu__button" href="akce.html#akce">Akce</a></li>
+                <li class="menu__item"><a class="button menu__button" href="kone.html#kone">Koně</a></li>
+                <li class="menu__item"><a class="button menu__button" href="tabor.html#tabor">Příměstský tábor</a></li>
+                <li class="menu__item"><a class="button menu__button" href="cenik.html#cenik">Ceník</a></li>
+                <li class="menu__item"><a class="button menu__button" href="kontakt.html#kontakt">Kontakt</a></li>
+            </menu>
+        </nav>
+
+        <div class="head_img">
+            <h1 class="head_img__text">JEZDECKÁ SPOLEČNOST VYDLÁKOV - NAŠE SLUŽBY</h1>
+        </div>
+    </header>
+    <main id="sluzby" class="main main_sluzby">
+        <h2  class="main__heading main_sluzby__heading">Služby</h2>
+        <div class="main_sluzby__wrapper">
+            <section class="section section_sluzby">
+                <h3 id="ustajeni" class="section__heading section_sluzby__heading section__heading--absolute">Ustájení</h3>
+                <p class="section__text section_sluzby__text section__text--border">Z důvadu plného obsazení našich boxů, není nyní ustájení v
+                    nabídce!!</p>
+    
+                <div class="section_sluzby__ustajeni ustajeni">
+                    <h4 class="ustajeni__heading">Zahrnuje:</h4>
+    
+                    <div class="swiper">
+                        <div class="ustajeni__slider slider_ustajeni swiper-wrapper">
+                            <div class="slider_ustajeni__item slider_item slider_item--mistovani swiper-slide">
+                                <span class="slider_item__wraper"></span>
+                                    <p class="slider_item__text">USTÁJENÍ V BOXE DENNĚ MÍSTOVANÉ PODESTÝLKA SLÁMOU</p>
+                                </div>
+                            <div class="slider_ustajeni__item slider_item slider_item--krmeni swiper-slide">
+                                <span class="slider_item__wraper"></span>
+                                <p class="slider_item__text">DVAKRÁT DENNĚ KRMENÍ - NAŠE MUSLI, OVES A DOPLŇKY
+                                    KRMENÍ(NADSTAVBY A VYJÍMKY JSOU NA DOMLUVĚ)</p>
+                            </div>
+                            <div class="slider_ustajeni__item slider_item slider_item--vybeh swiper-slide">
+                                <span class="slider_item__wraper"></span>
+                                    <p class="slider_item__text">DENNÍ POBYT KONĚ VE VÝBĚHU</p>
+                               </div>
+                            <div class="slider_ustajeni__item slider_item slider_item--jizdarna swiper-slide">
+                                <span class="slider_item__wraper"></span>
+                                    <p class="slider_item__text">MOŽNOST <span class="slider_item__text--red">ZDARMA</span>
+                                        VYUŽITÍ PÍSKOVÉ JÍZDÁRNY VČETNĚ MATERIÁLU
+                                        PRO
+                                        VÝCVIK KONÍ</p>
+                                </div>
+                            <div class="slider_ustajeni__item slider_item slider_item--sedlovna swiper-slide">
+                                <span class="slider_item__wraper"></span>
+                                    <p class="slider_item__text">MOŽNOST VYUŽITÍ VYTÁPĚNÉ SEDLOVNY A KLUBOVNY</p>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <p class="ustajeni__text_other">Cena nezahrnuje veterinární a podkovářské práce</p>
+                    <p class="ustajeni__text ustajeni__text--bold">Více informací na dotazu správce jízdárny.</p>
+                </div>
+            </section>
+            <section id="clenstvi" class="section section_clenstvi">
+                <h3 class="section__heading section__heading--absolute">Členství</h3>
+                <p class="section__text section__text--border">Opravdové nadšence a milovníky koní radi uvítáme mezi námi, jako členy v našem jezdeckém klubu.</p>
+                <figure class="section__img frame"><a class="img_wrapper"><img class="frame__item"
+                            src="./imgs/společná_S.jpg" alt="Fotografie členů klubu stáje JS Vydlákov na zasněžené jízdárně"></a>
+                    <figcaption></figcaption>
+                </figure>
+            </section>
+            <section class="section section_pronajem">
+                <h3 class="section__heading section__heading--absolute">Pronájem koní</h3>
+                <p class="section__text section__text--border">Nabízíme pronájem koní k vyjížďkám, na svatby, pro dětské oslavyapod., případné zakoupení permice, která zahrnuje 10 jízd - tríniků či vyjížděk u nás ve stáji.
+                </p>
+                <figure class="section__img frame"><a class="img_wrapper"><img class="frame__item"
+                            src="./imgs/pronajem_koni_B.jpg" alt="Manželská fotografie na louce, manželka oblečená v bílých šatech jede na koni z naši stáje JS Vydlákov"></a>
+                    <figcaption></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__heading">Jezdecká společnost Vydlákov</p>
+        <ul class="footer__list list">
+            <li class="list__item"><a href="index.html#uvod">Úvod</a></li>
+            <li class="list__item"><a href="sluzby.html#sluzby">Služby</a></li>
+            <li class="list__item"><a href="akce.html#akce">Akce</a></li>
+            <li class="list__item"><a href="kone.html#kone">Koně</a></li>
+            <li class="list__item"><a href="tabor.html#tabor">Příměstský tábor</a></li>
+            <li class="list__item"><a href="cenik.html#cenik">Ceník</a></li>
+            <li class="list__item"><a href="kontakt.html#kontakt">Kontakt</a></li>
+            <li class="list__item list__item_logo"><a class="link link--ig"
+                    href="https://www.instagram.com/js_vydlakov/"></a>
+                <a class="link link--mail" href="mailto:langos88@seznam.cz"></a>
+                <a class="link link--phone" href="tel:739550505"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+
+        let topMenu = document.getElementById('myLinks');
+        function myFunction() {
+            topMenu.classList.toggle("hidden");
+        }
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".swiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+        });
+    </script>
+
+
+</html>

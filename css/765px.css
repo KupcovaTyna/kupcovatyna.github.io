@@ -1,0 +1,91 @@
+@media screen and (min-width: 765px) {
+    .header__nav .hidden {
+        display: flex;
+  
+      }
+      
+    .header__nav .nav__bar {
+        display: none;
+    }
+
+    .menu {
+        margin: 0;
+        top: 0;
+        justify-content: flex-end;
+        gap: 1em;
+    }
+    
+
+    .main {
+        max-width: none;
+        padding: 0 10vw;
+        margin: auto;
+    }
+
+    .main_sluzby {
+        max-width: 600px;
+    }
+
+
+   
+    .head_img__text {
+        top: 50vh;
+        font-size: 64px;
+    }
+
+    .slider_item {
+        height: 50vh !important; 
+    }
+
+    .slider_item__text {
+        font-size: 44px;
+    }
+
+    .section__img {
+        max-width: 600px;
+    }
+
+    .section_cards__card {
+        display: flex;
+        gap: 2em;
+        max-width: 700px;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .card_top__jmeno--absolute {
+        top: -14px;   
+    }
+
+    .card_top {
+        margin: 0;
+    }
+
+    
+
+    .img_container {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 600px;
+    }
+
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 500px;
+        height: auto;
+    }
+
+    .article_news {
+        max-width: 38em;
+    }
+
+    
+   
+    
+
+    .prize {
+        display: grid;
+        grid-template-columns: 286px 286px;
+        gap: 32px;
+        justify-content: center;}
+}
