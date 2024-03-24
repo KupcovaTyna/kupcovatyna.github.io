@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/765px.css">
+    <link rel="stylesheet" href="./css/1024.css">
+    <meta name = "theme-color" content = "#251605ef">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <title>Ceník | JS Vydlákov</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav nav">
+            <div class="nav__bar">
+
+                <a class="button_hamburger" href="javascript:void(0);" onclick="myFunction()"></a>
+            </div>
+            <menu id="myLinks" class="menu hidden">
+                <li class="menu__item"><a class="button menu__button" href="index.html#uvod">Úvod</a></li>
+                <li class="menu__item"><a class="button menu__button" href="sluzby.html#sluzby">Služby</a></li>
+                <li class="menu__item"><a class="button menu__button" href="akce.html#akce">Akce</a></li>
+                <li class="menu__item"><a class="button menu__button" href="kone.html#kone">Koně</a></li>
+                <li class="menu__item"><a class="button menu__button" href="tabor.html#tabor">Příměstský tábor</a></li>
+                <li class="menu__item"><a class="button menu__button" href="cenik.html#cenik">Ceník</a></li>
+                <li class="menu__item"><a class="button menu__button" href="kontakt.html#kontakt">Kontakt</a></li>
+            </menu>
+        </nav>
+
+        <div class="head_img">
+            <h1 class="head_img__text">JEZDECKÁ SPOLEČNOST VYDLÁKOV - CENÍK</h1>
+        </div>
+    </header>
+    <main id="cenik" class="main main_cenik">
+        <h2  class="main__heading Main_cenik__heading">Ceník</h2>
+        <div class="prize">
+            <div class="prize_item">
+                <h3 class="prize_item__heading">USTÁJENÍ</h3>
+                <p class="prize_item__text">Ustájení ve dne ve výběhu a přes noc v boxe.</p>
+                <a class="prize_button" href="./sluzby.html#ustajeni">Dozvědět se více</a>
+                <p class="prize_item__prize">6 000,-/měsíčně</p>
+            </div>
+
+            <div class="prize_item">
+                <h3 class="prize_item__heading">INDIVIDUÁL</h3>
+                <p class="prize_item__text prize_item__prize--line">Individuální trénink nebo vyjížďka</p>
+                <div class="table prize_item__table">
+                    
+                        <div class="table__item">trénink</div>
+                        <div class="table__item table__item--right">500,-</div>
+                   
+                    
+                        <div class="table__item">vyjížďka</div>
+                        <div class="table__item table__item--right">600,-</div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="prize_item">
+                <h3 class="prize_item__heading">PERMICE</h3>
+                <p class="prize_item__text">Nabízíme permici na 10 jízd</p>
+                <p class="prize_item__smalltext">zahrnuje tréninky i vyjížďky</p>
+                <p class="prize_item__prize">4 000,-</p>
+            </div>
+
+            <div class="prize_item">
+                <h3 class="prize_item__heading">PRONAJETÍ PŘEPRAVNÍKU</h3>
+                <p class="prize_item__text">Pronajetí přepravníku pro koně</p>
+                <p class="prize_item__prize prize_item__prize--line">600,-/den</p>
+                <div class="table">
+                    <div class="table__item">Řidič</div>
+                    <div class="table__item table__item--right">15,-/km</div>
+                </div>
+            </div>
+            <div class="prize_item">
+                <h3 class="prize_item__heading">ČLENSTVÍ</h3>
+                <p class="prize_item__text">Členstí v jezdeckém klubu</p>
+                <a class="prize_button" href="./sluzby.html#clenstvi">Dozvědět se více</a>
+                <p class="prize_item__prize prize_item__prize--line">1 000,-/měsíčně</p>
+
+                <div class="table">
+                    
+                        <div class="table__item">trénink 2 a více</div>
+                        <div class="table__item table__item--right">200,-</div>
+                   
+                    
+                        <div class="table__item">trénink o samotě</div>
+                        <div class="table__item table__item--right">300,-</div>
+                    
+                    
+                        <div class="table__item">vyjížďky</div>
+                        <div class="table__item table__item--right">zdarma</div>
+                    
+                </div>
+            </div>
+        </div>
+        <section class="section section_cenik">
+            <h2>Ceník praní</h2>
+            <div class="section__table table">
+              
+                    <div class="table__name">podsedlová dečka</div>
+                    <div class="table__cena table__item--right">80,-</div>
+          
+             
+                    <div class="table__name">odpocka, bederka</div>
+                    <div class="table__cena table__item--right">300,-</div>
+                
+                
+                    <div class="table__name">termo deka, pláštěnka</div>
+                    <div class="table__cena table__item--right">400,-</div>
+                
+               
+                    <div class="table__name">drobnosti (čabraka, rajtky,kamaše,atd...)</div>
+                    <div class="table__cena table__item--right">60,-</div>
+               
+                
+                    <div class="table__name">impregnace + praní</div>
+                    <div class="table__cena table__item--right">150,-</div>
+                
+                
+                    <div class="item__name">desinfekce + praní</div>
+                    <div class="item__cena table__item--right">60,-</div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__heading">Jezdecká společnost Vydlákov</p>
+        <ul class="footer__list list">
+            <li class="list__item"><a href="index.html#uvod">Úvod</a></li>
+            <li class="list__item"><a href="sluzby.html#sluzby">Služby</a></li>
+            <li class="list__item"><a href="akce.html#akce">Akce</a></li>
+            <li class="list__item"><a href="kone.html#kone">Koně</a></li>
+            <li class="list__item"><a href="tabor.html#tabor">Příměstský tábor</a></li>
+            <li class="list__item"><a href="cenik.html#cenik">Ceník</a></li>
+            <li class="list__item"><a href="kontakt.html#kontakt">Kontakt</a></li>
+            <li class="list__item list__item_logo"><a class="link link--ig"
+                    href="https://www.instagram.com/js_vydlakov/"></a>
+                <a class="link link--mail" href="mailto:langos88@seznam.cz"></a>
+                <a class="link link--phone" href="tel:739550505"></a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+
+        let topMenu = document.getElementById('myLinks');
+        function myFunction() {
+            topMenu.classList.toggle("hidden");
+        }
+
+    </script>
+</body>
+
+</html>
