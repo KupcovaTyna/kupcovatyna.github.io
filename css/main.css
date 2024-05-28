@@ -59,6 +59,11 @@ img {
 
 }
 
+.header--letak {
+    background-image: url(../imgs/letak/Detsky\ den.png);
+    background-size: contain;
+    
+}
 
 
 
