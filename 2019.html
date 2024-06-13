@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/album.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/765px.css">
+    <link rel="stylesheet" href="./css/1024.css">
+    <meta name="theme-color" content="#251605ef">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <title>Akce | JS Vydlákov</title>
+</head>
+
+<body>
+
+        <header class="header header--letak">
+            <nav class="header__nav nav">
+                <div class="nav__bar">
+    
+                    <a class="button_hamburger" href="javascript:void(0);" onclick="myFunction()"></a>
+                </div>
+                <menu id="myLinks" class="menu hidden">
+                    <li class="menu__item"><a class="button menu__button" href="index.html#uvod">Úvod</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="sluzby.html#sluzby">Služby</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="akce.html#akce">Akce</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="kone.html#kone">Koně</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="tabor.html#tabor">Příměstský tábor</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="cenik.html#cenik">Ceník</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="kontakt.html#kontakt">Kontakt</a></li>
+                </menu>
+            </nav>
+   
+            <div class="head_img">
+                 <a href="akce.html#detskyden2024"><h1 class="head_img__text">JEZDECKÁ SPOLEČNOST VYDLÁKOV - AKCE</h1></a>
+            </div>
+        </header>
+
+    <main id="akce" class="main main_akce">
+        <h2 class="main__heading main_akce__heading ">Akce</h2>
+        <section id="2019" class="section_year">
+            <h3 class="section_year__heading">2019</h3>
+            <div class="section_article__wrapper">
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Vánoční večírek</h4>
+                    <p class="article_news__text">Dne 21.12.2019 se jako i předešlý rok konal vánoční večírek. Účast
+                        byla
+                        veliká, příští rok asi budeme muset změnit prostory, protože už to letos bylo dost na těsno a
+                        pokud
+                        se nám ještě někdo přidá do týmu, tak už by neměl kde sedět. Všichni jsme si to moc užili,
+                        popili
+                        jsme, pojedli a samožřejmě nesměla chybět ani čokoládová fontána, kterou si nejvíce užila asi
+                        naše
+                        Majdičja, která měla čokoládu snad úplně všude.</p>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby závody JS Vydlákov</h4>
+                    <p class="article_news__text">Dne 2.11.2019 se u nás ve Vydlákově konaly naše tradiční hobby sranda
+                        závody. Účas byla hojná, byšlo nám i krásné počasí a moc jsme si to všichni užili. Navštívili
+                        nás i
+                        holčiny z vedlejší stáje, a tak jsme si mohli alespoň trošku zazávodit s otatními. Letos se na
+                        start
+                        také postavili už i ti nejmladší poníčci a ukázali, že máme do budoucna skokvé naděje.</p>
+                    <a href="https://devron.rajce.idnes.cz/23.6.2019_-_Hobby_Vydlakov/" class="news_button">Odkaz na
+                        fotografie</a>
+                    <p class="article_news__text">Závodilo se v soutěžích</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Jízda zručnosti</p>
+                        <p class="news_structure__member">Křížkový parkur</p>
+                        <p class="news_structure__member">Parkur do 90 cm</p>
+                        <p class="news_structure__member">Minimaxi</p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/eliska_nero_vydlakov_2019_S.jpg"
+                                alt="Fotografie naši členky Elišky, která skáče na koni Nero"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">POHÁR ČESKÉHO RÁJE 2019</h4>
+                    <p class="article_news__text">Dne 21.9.2019 jsme se zúčastnili posledního kola Poháru Českého Ráje v
+                        Jičíně.</p>
+                    <p class="article_news__text">V celé seriálu se Tínka s Devronem umístili na konečném 5.místě
+                        gratulujeme a hodně úspěchů do další sezóny.</p>
+                    <a href="//nikyziegelheimova.rajce.idnes.cz/Pohar_ceskeho_raje_finale" class="news_button">Odkaz na
+                        fotografie</a>
+                    <p class="article_news__text">start do 70 cm a 80 cm</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Eliška a Nero</p>
+                    </div>
+                    <p class="article_news__text">start v ZM a Z</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Tínka a Devron</p>
+                        <p class="news_structure__member">Andrejka a Monty</p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/trinka_devron_pohar_2019_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která skáče na svém koni Devron"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/monty_aja_pohar_2019_S.jpg"
+                                alt="Fotografie naši soukromačky Andrejky, která skáče na svém koni Monty"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/eliska_nero_pohar_2019_S.jpg"
+                                alt="Fotografie naši soukromačky Elišky, která skáče na koni Nero"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby závody Chotyně</h4>
+                    <p class="article_news__text">Dne 14.9.2019 se naše stáj zúčastnila hobby závůdků v Chotyni.</p>
+                    <a href="https://devron.rajce.idnes.cz/Hobby_Chotyne" class="news_button">Odkaz na fotografie</a>
+                    <p class="article_news__text">Závodilo se v soutěži:</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">jízda zručnosti</p>
+                        <p class="news_structure__member">drezura Z1</p>
+                        <p class="news_structure__member">drezura pro nejmenší</p>
+                        <p class="news_structure__member">křížkový parkur</p>
+                        <p class="news_structure__member">parkur do 70 cm</p>
+                        <p class="news_structure__member">parkur 90 - 100 cm</p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/jana_lady_chotyne_S.jpg"
+                                alt="Fotografie naši členky Jany, která skáče na koni Lady"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/bara_marcus_chotyne_S.jpg"
+                                alt="Fotografie naši soukromačky Barči, která skáče na svém koni Marcus"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/majda_rambo_chotyne_S.jpg"
+                                alt="Fotografie naši členky Majdičky, která sedí na poníkovi Rambo"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/naty_silver_chotyne_S.jpg"
+                                alt="Fotografie naši soukromačky Natálky, která stojí u své kobylky Silver"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/nikola_kipp_chotyne_podzim_S.jpg"
+                                alt="Fotografie naši členky Rozi, která skáče na koni Kipp"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/dveron_tinka_chotyne_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která sedí na svém koni Devron. Devronek hezky zvedá nožičku"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/sadlotka_bety_chotyne_S.jpg"
+                                alt="Fotografie naši členky Šarlotky, která otevírá branku na koni Betty"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby závody Js Bukov</h4>
+                    <p class="article_news__text">V neděli 1.9.2019 se Eliška s Nerem zúčastnili závodů v Ústí nad
+                        Labem.
+                    </p>
+                    <p class="news_structure__member">Startovali v soutěžích ZZ a ZM.</p>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Offi závody Jk Vacek</h4>
+                    <p class="article_news__text">Dne 31.8.2019 jsme se zúčastnili závodů v Jk Vacek.</p>
+                    <p class="news_structure__member">Start v ZM a Z</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Tínka a Devron</p>
+                        <p class="news_structure__member">Barča a Markus</p>
+                        <p class="news_structure__member">Andrejka a Monty</p>
+                        <p class="news_structure__member">Jana a Leukippos</p>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Offi závody Jk Zálesí</h4>
+                    <p class="article_news__text">V sobotu 3.8.2019 jsme se zúčastnili závodů v Zálesí.</p>
+                    <p class="news_structure__member">Start v ZM a Z</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Barča a Markus</p>
+                        <p class="news_structure__member">Andrejka a Monty</p>
+                        <p class="news_structure__member">Jana a Leukippos</p>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby závůdky ve Vydlákově</h4>
+                    <p class="article_news__text">11.5. se naše stáj zúčastnila hobby závůdků v Chotyni u Hrádku nad
+                        Nisou.
+                    </p>
+                    <p class="article_news__text">23.6. se u nás ve stáji konaly hobby závůdky jako každý rok. A na
+                        podzim
+                        se u nás budou konat znovu, určitě doražte. Těšíme se na vás.</p>
+                    <p class="article_news__text">závodilo se v soutěžích:</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">jízda zručnosti</p>
+                        <p class="news_structure__member">křížkový parkur</p>
+                        <p class="news_structure__member">parkur do 70 cm</p>
+                        <p class="news_structure__member">parkur do 90 cm</p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/devronidlo_kacka_vydlakov_S.jpg"
+                                alt="Fotografie naši členky Kačky, která cválá na koni Devron"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/silver_naty_vydlakov_S.jpg"
+                                alt="Fotografie naši soukromačky Natálky, která skáče na svém koni Silver"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/monty_aja_vydlakov_S.jpg"
+                                alt="Fotografie naši soukromačky Andrejky, která skáče na svém koni Monty"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/markus_barca_vydlakov_S.jpg"
+                                alt="Fotografie naši soukromačky Barči, která sedí na svém koni Marcus"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Offika Jičín</h4>
+                    <p class="article_news__text">Dne 15.6. jsme se zúčastnili závodů v Jičíně.</p>
+                    <p class="article_news__text">Eliška se s Nerem umístila na 1. místě a Terka s Monou na 4. místě v
+                        soutěži do 70cm.</p>
+                    <p class="news_structure__member">Start v 70cm a 80cm</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Eliška a Nero</p>
+                        <p class="news_structure__member">Terka a Mona</p>
+                    </div>
+                    <p class="news_structure__member">Start v ZM a Z</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Barča a Markus</p>
+                        <p class="news_structure__member">Tínka a Devron</p>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Offika Čakovičky</h4>
+                    <p class="article_news__text">Dne 2.6. jsme se zúčastnili závodů v Čakovičkách.</p>
+                    <p class="article_news__text">Barča se v ZM umístila s Marcusem na 1. místě a Andrejka s Montym na
+                        2.
+                        místě</p>
+                    <p class="news_structure__member">Start v ZM a Z</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Barča a Markus</p>
+                        <p class="news_structure__member">Andrejka a Monty</p>
+                        <p class="news_structure__member">Tínka s Devronem a Biankou</p>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby Stará Boleslav</h4>
+                    <p class="article_news__text">19.5. jsme se zúčastnili hobby závodů ve Staré Boleslavi.</p>
+                    <p class="article_news__text">Barča se v 70/80 cm umístila s Marcusem na 3. místě</p>
+                    <p class="news_structure__member">Start v 70/80 cm a 80/90 cm</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Barča a Markus</p>
+                        <p class="news_structure__member">Andrejka a Monty</p>
+                        <p class="news_structure__member">Terka a Mona</p>
+                        <p class="news_structure__member">Eliška a Nero</p>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Offika Stará Boleslav</h4>
+                    <p class="article_news__text">Dne 18.5. jsme se zúčastnili závodů ve Staré Boleslavi.</p>
+                    <p class="article_news__text">Start v ZM a Z:</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">- Tínka s Devronem a Biankou</p>
+                        <p class="news_structure__member">Janča s Doremi of Jacs a Kippem </p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/bianka_tinka_stara_bolesav_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která skáče na koni Bianka"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/devron_tinka_stara_boleslav_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která skáče na svém koni Devron"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/kippous_jana_stara_boleslav_S.jpg"
+                                alt="Fotografie naši členky Jany, která skáče na koni Kipp"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/ladunka_jana_stara_boleslav_S.jpg"
+                                alt="Fotografie naši členky Jany, která skáče na koni Lady"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby závůdky Centaranč</h4>
+                    <p class="article_news__text">11.5. se naše stáj zúčastnila hobby závůdků v Chotyni u Hrádku nad
+                        Nisou.</p>
+                    <p class="article_news__text">Moc jsme si to všichni užili a těšíme se zase příští rok.</p>
+                    <p class="article_news__text">závodilo se v soutěžích:</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">jízda zručnosti</p>
+                        <p class="news_structure__member">křížkový parkur</p>
+                        <p class="news_structure__member">parkur do 70 cm</p>
+                        <p class="news_structure__member">parkur do 90 cm</p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/majda_rambo_zavudky_centaranc_S.jpg"
+                                alt="Fotografie naši členky Majdičky, která sedí na koni Rambo a překází s ním dřevěnou lávku v soutěži zručnost"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/laura_robin_zavudky_centaranc_S.jpg"
+                                alt="Fotografie nači zákazničky Laury, která skáče křížek na poníovi Robin"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/kristagang_zavudky_centaranc_S.jpg"
+                                alt="Fotografie našich čtyř členek, Kristýny, Klárky, Šarlotky a Rózi, jak sedí na koních a usmívají se"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/aja_monty_zavudky_centaranc_S.jpg"
+                                alt="Fotografie usmívající se Andrejky, která sedí na svém koni a někomu podává svou mikinu"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/barunka_zavudky_centaranc_S.jpg"
+                                alt="Fotografie naši soukromačky Barunky, která skáče na svém koni Marcus"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/masle_zavudky_centaranc_S.jpg"
+                                alt="Fotografie krásně barevných mašlí od centaranč"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Officiální závody Nymburk</h4>
+                    <p class="article_news__text">27.4. se Tínka s Biankou a Jana s Lady zůčastnily závodů v Nymburku.
+                    </p>
+                    <p class="article_news__text">Startovaly jsme v obtížnosti ZM na limitovaný čas kde Tínka s Biankou
+                        jely
+                        čistě ale čas byl pro umístění moc rychlý a Jana s Lady za 4.tr. body. Další parkur stupně Z s
+                        návazným rozeskakováním dopadl, umístěním Tínky a Bianky na 5.místě a 4.tr. body v rozeskakování
+                        pro
+                        Janu a Lady.</p>
+
+                    <p class="article_news__text">Myslím, že v Nymburku se nám moc líbilo, prostředí bylo fajn, kobylky
+                        skákaly parádně a těšíme se na další závody.</p>
+                    <a href="https://www.zonerama.com/kbartonova" class="news_button">Odkaz na fotografie</a>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Velikonoční Václavická jízda</h4>
+                    <p class="article_news__text">Dne 21.4. proběhl průvod Václavicemi na který, pravidelně jezdíme
+                        každý
+                        rok.</p>
+                    <p class="news_structure__member">průvodu se zůčastnili:</p>
+                    <div class="article_news__structure news_structure">
+
+                        <p class="news_structure__member">Tína - Devron</p>
+                        <p class="news_structure__member">Eliška - Kipp</p>
+                        <p class="news_structure__member">Hanka - Betty</p>
+                        <p class="news_structure__member">Nikola - Karola </p>
+                        <p class="news_structure__member">Majda - Rambik</p>
+                        <p class="news_structure__member">Laura - Robin</p>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Hobby/Ofika Jičín</h4>
+                    <p class="article_news__text">20.4. Jsme se zůčastnili prvního kola poháru českého ráje, v JC Jičín.
+                        Myslím, že se nám dařilo velice dobře.</p>
+                    <p class="article_news__text">Eliška s Nerem se umístili v 70 cm na 2. místě a v 80 cm na 1. místě
+                    </p>
+                    <a href="https://toom7.rajce.idnes.cz/Parkurove_zavody_-_20._4._2019_-_Jezdecke_Centrum_Jicin/"
+                        class="news_button">Odkaz na fotografie</a>
+                    <p class="article_news__text">závodili:</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Eliška- Nero </p>
+                        <p class="news_structure__member">Andrejka- Monte</p>
+                        <p class="news_structure__member">Tína- Devron</p>
+                    </div>
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/eliska_nero_ofika_jicin_S.jpg"
+                                alt="Fotografie naši členky Elišky, která skáče parkur na koni Nero v Jičíně"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/Andy_monty_ifika_jicin_S.jpg"
+                                alt="Fotografie naši soukromačky Andy, která skáče parkur na svém koni Monty v Jičíně"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part">
+                            <img src="./akce_foto/tinka_devron_ofika_jicin_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která skáče parkur na svém koni Devron v Jičíně"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Velikonoční hobby závody - Liberec</h4>
+                    <p class="article_news__text">V sobotu 23.3.2019 jsme se zúčastnili hobby závodů v Jk Liberec. </p>
+                    <p class="article_news__text">V sestavě:</p>
+                    <div class="article_news__structure news_structure">
+                        <p class="news_structure__member">Šarlotka - Karola</p>
+                        <p class="news_structure__member">Klárka - Bianca</p>
+                        <p class="news_structure__member">Kristýna - Karola</p>
+                        <p class="news_structure__member">Róza - Leukippos</p>
+                        <p class="news_structure__member">Terka - Nero</p>
+                        <p class="news_structure__member">Tínka - Betty</p>
+                        <p class="news_structure__member">Eliška - Nero </p>
+                        <p class="news_structure__member">Nikola - Leukippos</p>
+                        <p class="news_structure__member">Jana - Doremi of Jacs</p>
+                        <p class="news_structure__member">Andrejka - Monty</p>
+                        <p class="news_structure__member">Tínka - Bianca</p>
+                    </div>
+
+                    <div class="img_container article_news__imgs">
+                        <figure class="img_container__part img_container__part--ten">
+                            <img src="./akce_foto/velikonocni_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která skáče parkur na koni Bianka"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--nine">
+                            <img src="./akce_foto/trollka_a_nero_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Terky(trollky), která skáče parkur na koni Nero"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--eight">
+                            <img src="./akce_foto/eliska_a_nero_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Elišky, která skáče parkur na koni Nero"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--seven">
+                            <img src="./akce_foto/tina_a_bety_velikonocni_S.jpg"
+                                alt="Fotografie naši soukromačky Tínky, která skáče parkur na koni Betty"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--six">
+                            <img src="./akce_foto/klarka_a_bia_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Klárky, která skáče parkur na koni Bianka"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--five img_container__part--sirka">
+                            <img src="./akce_foto/krystina_a_karola_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Kristýny, která skáče parkur na koni Karola"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--four img_container__part--sirka">
+                            <img src="./akce_foto/roza_a_kipp_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Rózi, která skáče parkur na koni Kipp"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--three img_container__part--sirka">
+                            <img src="./akce_foto/nikol_a_kipp_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Nikol, která skáče parkur na koni Kipp"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--two img_container__part--sirka">
+                            <img src="./akce_foto/andy_a_monty_velikonocni_S.jpg"
+                                alt="Fotografie naši soukromačky Andy, která skáče parkur na svém koni Monty"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                        <figure class="img_container__part img_container__part--one img_container__part--sirka">
+                            <img src="./akce_foto/jana_lady_velikonocni_S.jpg"
+                                alt="Fotografie naši členky Jany, která skáče parkur na koni Lady"
+                                onclick="this.classList.toggle('workingImage'); openImg();">
+                        </figure>
+                    </div>
+
+                </article>
+                <article class="section_year__article article_news">
+                    <h4 class="article_news__heading">Novoroční vyjížďka a skok do nového roku</h4>
+                    <p class="article_news__text">1.1.2019 se v naší stáji konala novoroční vyjížďka, které se
+                        zúčastnili
+                        všichni koně.</p>
+                    <p class="article_news__text">Po novoroční vyjížďce se na jízdárně skákalo do Nového roku.</p>
+
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__heading">Jezdecká společnost Vydlákov</p>
+        <ul class="footer__list list">
+            <li class="list__item"><a href="index.html#uvod">Úvod</a></li>
+            <li class="list__item"><a href="sluzby.html#sluzby">Služby</a></li>
+            <li class="list__item"><a href="akce.html#akce">Akce</a></li>
+            <li class="list__item"><a href="kone.html#kone">Koně</a></li>
+            <li class="list__item"><a href="tabor.html#tabor">Příměstský tábor</a></li>
+            <li class="list__item"><a href="cenik.html#cenik">Ceník</a></li>
+            <li class="list__item"><a href="kontakt.html#kontakt">Kontakt</a></li>
+            <li class="list__item list__item_logo"><a class="link link--ig"
+                    href="https://www.instagram.com/js_vydlakov/"></a>
+                <a class="link link--mail" href="mailto:langos88@seznam.cz"></a>
+                <a class="link link--phone" href="tel:739550505"></a>
+            </li>
+        </ul>
+    </footer>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeImg()">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script>
+
+        let topMenu = document.getElementById('myLinks');
+        function myFunction() {
+            topMenu.classList.toggle("hidden");
+        }
+
+    </script>
+
+    <script>
+        // Get the modal
+        let modal = document.getElementById('myModal');
+
+        function openImg() {
+            modal.style.display = "block";
+            let modalImg = document.getElementById("modal-img");
+            let getImg = document.querySelector(".workingImage");
+            let newAdress = getImg.src.replace("_S", "_B");
+            modalImg.src = newAdress;
+            //console.log("Adresa: " + newAdress);
+        }
+
+        function closeImg() {
+            let close = document.getElementsByClassName("workingImage");
+            close[0].classList.toggle("workingImage");
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
