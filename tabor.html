@@ -159,6 +159,11 @@
             </li>
         </ul>
     </footer>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeImg()">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    
     <script>
 
         let topMenu = document.getElementById('myLinks');
@@ -166,6 +171,25 @@
             topMenu.classList.toggle("hidden");
         }
 
+    </script>
+    <script>
+        // Get the modal
+        let modal = document.getElementById('myModal');
+
+        function openImg() {
+            modal.style.display = "block";
+            let modalImg = document.getElementById("modal-img");
+            let getImg = document.querySelector(".workingImage");
+            let newAdress = getImg.src.replace("_S", "_B");
+            modalImg.src = newAdress;
+            //console.log("Adresa: " + newAdress);
+        }
+
+        function closeImg() {
+            let close = document.getElementsByClassName("workingImage");
+            close[0].classList.toggle("workingImage");
+            modal.style.display = "none";
+        }
     </script>
 </body>
 
