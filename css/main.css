@@ -37,6 +37,7 @@ li {
 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 
@@ -52,15 +53,15 @@ img {
 
 
 .header {
-    background-image: url(../akce_foto/titulka.png);
+    background-image: url(../imgs/Tynka_devron_S.jpg);
     background-position: 25% 5%;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
 
 }
 
 .header--letak {
-    background-image: url(../imgs/letak/letak_tabor.jpg);
+    background-image: url(../imgs/letak/Detsky\ den.png);
     background-size: contain;
     
 }
