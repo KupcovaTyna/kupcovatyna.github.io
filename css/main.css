@@ -798,6 +798,10 @@ img {
     font-weight: bold;
 }
 
+.year_box--width {
+    width: auto;
+}
+
 .year_box__text {
     color: var(--white);
     width: 100%;
