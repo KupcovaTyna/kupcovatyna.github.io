@@ -704,6 +704,11 @@ img {
     
 }
 
+.img_container--center {
+    display: block;
+    max-width: 400px;
+}
+
 .img_container__part {
     margin: 0;
 }
