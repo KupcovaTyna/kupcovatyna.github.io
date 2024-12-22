@@ -61,13 +61,13 @@ img {
 }
 
 .header--akce {
-    background-image: url(../akce_foto/Image.jpeg);
+    background-image: url(../imgs/uvdoni_fotka_akce.png);
     background-size: contain;
     
 }
 
 .header--tabor {
-    background-image: url(../akce_foto/Image.jpeg);
+    background-image: url(../imgs/uvodni_fotka_tabor.png);
     background-size: contain;
     
 }
