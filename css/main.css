@@ -60,11 +60,18 @@ img {
 
 }
 
-.header--letak {
+.header--akce {
     background-image: url(../akce_foto/Image.jpeg);
     background-size: contain;
     
 }
+
+.header--tabor {
+    background-image: url(../akce_foto/Image.jpeg);
+    background-size: contain;
+    
+}
+
 
 
 
