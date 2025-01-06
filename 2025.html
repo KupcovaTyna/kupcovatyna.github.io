@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="cs">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/album.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/765px.css">
+    <link rel="stylesheet" href="./css/1024.css">
+    <meta name="theme-color" content="#251605ef">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <title>Akce | JS Vydlákov</title>
+</head>
+
+<body>
+
+        <header class="header header--letak">
+            <nav class="header__nav nav">
+                <div class="nav__bar">
+    
+                    <a class="button_hamburger" href="javascript:void(0);" onclick="myFunction()"></a>
+                </div>
+                <menu id="myLinks" class="menu hidden">
+                    <li class="menu__item"><a class="button menu__button" href="index.html#uvod">Úvod</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="sluzby.html#sluzby">Služby</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="akce.html#akce">Akce</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="kone.html#kone">Koně</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="tabor.html#tabor">Příměstský tábor</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="cenik.html#cenik">Ceník</a></li>
+                    <li class="menu__item"><a class="button menu__button" href="kontakt.html#kontakt">Kontakt</a></li>
+                </menu>
+            </nav>
+   
+            <div class="head_img">
+                 <a href="akce.html#detskyden2024"><h1 class="head_img__text">JEZDECKÁ SPOLEČNOST VYDLÁKOV - AKCE</h1></a>
+            </div>
+        </header>
+
+    <main id="akce" class="main main_akce">
+        <h2 class="main__heading main_akce__heading ">Akce</h2>
+        <section id="2025" class="section_year">
+            <section class="section_year">
+                <h3 class="section_year__heading">2025</h3>
+
+                <article class="section_year__article article_news">
+                <h4 class="article_news__heading">Besídka JS Vydlákov</h4>
+                  <p class="article_news__text">V sobotu 14.12.2024 chystáme besídku pro přátele JS Vydlákov. </p>
+
+                      <div class="img_container article_news__imgs">
+                 <figure class="img_container__part">
+                                <img src="./imgs/besidka2024.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                          </div>
+                </article>
+
+                <article class="section_year__article article_news">
+                  <h4 class="article_news__heading">Hubertova jízda v maskách - neděle 20.10.2024</h4>
+                  <p class="article_news__text">Pro členky probíhala v neděli další Hubertka - tentokrát v maskách. V sedle nás vyrazilo deset - připojil se i Rambík s malým Honzíkem - Batmanem. 
+                      Masky byly povedené a vyhráli to tentokrát úplně všichni. </p>
+
+                      <div class="img_container article_news__imgs">
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni1.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                          
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni2.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                               
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni3.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                 
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni4.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                          
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni5.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                               
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni6.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                        
+                          <figure class="img_container__part">
+                                <img src="./imgs/maskarni7.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                     <figure class="img_container__part">
+                                <img src="./imgs/maskarni8.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                          
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni9.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+                               
+                 <figure class="img_container__part">
+                                <img src="./imgs/maskarni10.jpg"
+                                    alt=""
+                                    onclick="this.classList.toggle('workingImage'); openImg();">
+                            </figure>
+               
+                </div>
+                </article>
+
+                 
+            </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__heading">Jezdecká společnost Vydlákov</p>
+        <ul class="footer__list list">
+            <li class="list__item"><a href="index.html#uvod">Úvod</a></li>
+            <li class="list__item"><a href="sluzby.html#sluzby">Služby</a></li>
+            <li class="list__item"><a href="akce.html#akce">Akce</a></li>
+            <li class="list__item"><a href="kone.html#kone">Koně</a></li>
+            <li class="list__item"><a href="tabor.html#tabor">Příměstský tábor</a></li>
+            <li class="list__item"><a href="cenik.html#cenik">Ceník</a></li>
+            <li class="list__item"><a href="kontakt.html#kontakt">Kontakt</a></li>
+            <li class="list__item list__item_logo"><a class="link link--ig"
+                    href="https://www.instagram.com/js_vydlakov/"></a>
+                <a class="link link--mail" href="mailto:langos88@seznam.cz"></a>
+                <a class="link link--phone" href="tel:739550505"></a>
+            </li>
+        </ul>
+    </footer>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeImg()">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script>
+
+        let topMenu = document.getElementById('myLinks');
+        function myFunction() {
+            topMenu.classList.toggle("hidden");
+        }
+
+    </script>
+
+    <script>
+        // Get the modal
+        let modal = document.getElementById('myModal');
+
+        function openImg() {
+            modal.style.display = "block";
+            let modalImg = document.getElementById("modal-img");
+            let getImg = document.querySelector(".workingImage");
+            let newAdress = getImg.src.replace("_S", "_B");
+            modalImg.src = newAdress;
+            //console.log("Adresa: " + newAdress);
+        }
+
+        function closeImg() {
+            let close = document.getElementsByClassName("workingImage");
+            close[0].classList.toggle("workingImage");
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
