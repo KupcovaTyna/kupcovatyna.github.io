@@ -218,7 +218,7 @@ img {
 
 .section__text--border {
     border-top: 2px var(--dark-red) solid;
-    padding-top: 2em;
+    padding-top: 3em;
     line-height: 1.5;
 }
 
