@@ -68,6 +68,12 @@
         max-width: 600px;
     }
 
+
+       .img_container_500 {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 450px;
+    }
+
     .img_container--center {
         display: block;
         max-width: 400px;
