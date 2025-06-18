@@ -71,7 +71,12 @@
 
     .img_container_500 {
         grid-template-columns: repeat(3, 1fr);
-        max-width: 450px;
+        max-width: 350px;
+    }
+
+
+    .img_container_500:first-child {
+        max-height: 350px;
     }
 
     .img_container--center {
