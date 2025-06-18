@@ -70,13 +70,13 @@
 
 
     .img_container_500 {
-        grid-template-columns: repeat(3, 1fr);
-        max-width: 350px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 
-    .img_container_500:first-child {
-        max-height: 350px;
+    .img_container_500 > figure {
+        max-width: 300px;
     }
 
     .img_container--center {
