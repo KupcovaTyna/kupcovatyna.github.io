@@ -345,6 +345,9 @@ img {
     background-image: url(../imgs/sava_krmeni_S.jpg);
 }
 
+.slider_item--rohoze {
+    background-image: url(../imgs/krmiste1.jpeg);
+}
 
 .slider_item--sedlovna {
     background-image: url(../imgs/Klubovna_S.jpg);
